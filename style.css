@@ -1,0 +1,12 @@
+.container{
+    display:grid;
+    
+}
+
+.sidebar{
+    display:grid;
+   
+}
+ul{
+    list-style-type:none;
+}
