@@ -5,7 +5,7 @@
 .container{
     display:grid;
     grid-template-columns: 20% 80%;
-
+--text-color:white;
 
 }
 
@@ -23,8 +23,9 @@
     flex-direction: row;
     align-items: center;
 justify-self: flex-start;
-    margin:20px 0;
+    margin:20px 30px;
     gap:15px;
+    color:var(--text-color);
    
 }
 
@@ -35,6 +36,13 @@ justify-self: flex-start;
     justify-content: flex-start;
     align-items: center;
     gap:10px;
-    margin:10x 40px;
+    margin: 30px 40px;
+    color:var(--text-color);
     
+}
+
+/* figure out how to make the svg symbols white
+*/
+svg{
+   
 }
