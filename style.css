@@ -1,12 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
 .container{
     display:grid;
-    
+    grid-template-columns: 20% 80%;
+
+
 }
 
-.sidebar{
-    display:grid;
+
+.sidebar{  
+   background-color: #60a5fa;
+   height: 100vh;
+}
+
+
+
+
+.logotext{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+justify-self: flex-start;
+    margin:20px 0;
+    gap:15px;
    
 }
-ul{
-    list-style-type:none;
+
+.home,.profile,.messages,.history,
+.tasks,.communities,.settings,.support,.privacy{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    margin:10x 40px;
+    
 }
