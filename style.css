@@ -66,7 +66,7 @@ margin-left:40px;
 /**
 Fix this css to match navbar in pick
 **/
-.nav{
+.nav,.left-side{
   display: flex;
   flex-direction:row;
   align-items: center;
@@ -91,12 +91,19 @@ Fix this css to match navbar in pick
 }
 
 
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 20px;
+}
+
 
 
 
 .content{
     background-color:var(--bar-colour);;
 }
-
 
  
