@@ -48,3 +48,26 @@ justify-self: flex-start;
    margin-top:70px;
 }
 
+.main-content{
+    display: grid;
+    grid-template-rows: 30% 70%;
+    background-color: white;
+    height: 100vh;
+}
+
+.header{
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+
+   
+}
+
+.nav{
+
+}
+
+
+.content{
+    background-color:#9ca3af;
+}
