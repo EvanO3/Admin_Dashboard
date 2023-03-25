@@ -58,16 +58,26 @@ justify-self: flex-start;
 .header{
     background-color:white;
     display:flex;
-    flex-direction:column;
-
-   
+    flex-direction: column;
+  margin:40px;
 }
-
 .nav{
-
+    display: flex;
+  flex-direction: row;
+  gap:15px;
 }
+
+
 
 
 .content{
     background-color:#9ca3af;
 }
+
+.header input[type=text] {
+    
+    border-radius: 15px;
+    width:30vw;
+    height:30px;
+
+  }
