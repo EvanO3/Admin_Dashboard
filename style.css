@@ -12,7 +12,7 @@
 
 
 .sidebar{  
-   background-color: #60a5fa;
+   background-color: #dc2626;
    height: 100vh;
 }
 
@@ -114,8 +114,17 @@ Fix this css to match navbar in pick
 }
 
  .btn{
- width:28px;
- height:35px;
- border-radius:10px;
- 
+border: none;
+  width: 6rem;
+  height: 2rem;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 1rem;
+  background-color: #dc2626;
+  color:var(--text-color);
+  margin-bottom: 10px;
+
+
  }
+
+ 
