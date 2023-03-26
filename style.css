@@ -75,7 +75,7 @@ Fix this css to match navbar in pick
 
 }
 .input-form{
-    width:25vw;
+    width: 35vw;
     border-radius: 20px;
     height:30px;
     margin-left:40px;
@@ -98,6 +98,13 @@ Fix this css to match navbar in pick
     justify-content: space-between;
     margin:0px 20px;
 }
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:30%;
+}
 
 
 
@@ -106,4 +113,9 @@ Fix this css to match navbar in pick
     background-color:var(--bar-colour);;
 }
 
+ .btn{
+ width:28px;
+ height:35px;
+ border-radius:10px;
  
+ }
