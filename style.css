@@ -198,19 +198,19 @@ gap:10px;
     height:80%;
     width:80%;
     background-color:var(--text-color);
-    border-radius: 10px;
+    border-radius: 5px;
  }
 
 .trend-text{
-    padding:5px 10px;
+    padding:10px 10px;
 }
  .trend-text  h6{
-    font-size:16px;
+    font-size:14px;
  }
 
 
  .trend-text p{
-font-size:12px;
+font-size:14.5px;
 color:#737373
 
  }
@@ -223,3 +223,24 @@ color:#737373
     justify-content:center;
     align-items:center;
  }
+
+
+ img{
+    height:40px;
+    width:40px;
+    border-radius: 15px;
+ }
+
+
+ .trend-cards-text{
+    font-size:18px;
+ }
+
+ .trend-img-text{
+    display: flex;
+    flex-direction:row;
+    align-content:center;
+    padding:15px;
+    margin:20px;
+ }
+ 
